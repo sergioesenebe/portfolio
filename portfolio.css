@@ -1,0 +1,389 @@
+body {
+    background-color: #f5f4fa;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+    width: 100%;
+}
+
+/*Font of the whole page*/
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.link {
+    color: #444444;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+
+}
+
+#about-me {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    height: calc(100dvh - 60px);
+}
+
+#yo-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.web-btn {
+    width: 100px;
+    justify-content: center;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    background-color: #b8e0d2;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    gap: 5px;
+    text-decoration: none;
+    color: #2e2e2e;
+    border: 1px solid #9ed3c0;
+}
+
+.contact-btn:hover {
+    background-color: #9ed3c0;
+    border: 1px solid #9ed3c0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.project-technologies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.project-technology {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    gap: 5px;
+    color: black;
+}
+
+.project-technology img {
+    width: 20px;
+    height: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    gap: 20px;
+}
+
+.projects-group {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.carrousel {
+    position: relative;
+    width: 500px;
+    height: 281.25px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.slides img.active {
+    opacity: 1;
+}
+
+.points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.point {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.point:hover {
+    cursor: pointer;
+    background-color: #b8e0d2;
+}
+
+.point.active {
+    background-color: #7bbba5;
+}
+
+
+#experience {
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#jobs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.img-and-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description-img-div {
+    height: 30px;
+    width: 30px;
+    background-color: #444444;
+    border-radius: 100%;
+}
+
+.description-img {
+    width: 30px;
+    height: 30px;
+    padding: 7.5px;
+}
+
+#skills {
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#technologies-groups {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+#technologies-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    border: 2px solid #b8e0d2;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    gap: 20px;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 28px
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+}
+
+.technology img {
+    width: 50px;
+    height: 50px;
+}
+
+#education {
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#courses {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    gap: 20px;
+}
+
+.course {
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#contact {
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    background-color: #444444;
+    color: #ECE7E2;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.esenebe-footer-log {
+    width: 200px;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-contact a {
+    color: #f5f4fa;
+    margin: 0;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    #about-me {
+        width: 100%;
+        height: min-content;
+    }
+
+    .carrousel {
+        width: 280px;
+        height: 158px;
+    }
+
+    #projects {
+        width: 100%;
+    }
+
+    .project {
+        flex-direction: column-reverse;
+        border-top: 1px solid #b8e0d2;
+    }
+
+    #experience {
+        width: 100%;
+    }
+
+    .job {
+        min-width: 300px;
+    }
+
+    #skills {
+        width: 100%;
+    }
+
+    #education {
+        width: 100%;
+    }
+
+    #contact {
+        width: 100%;
+    }
+}
