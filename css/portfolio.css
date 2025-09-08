@@ -400,7 +400,7 @@ footer {
     cursor: pointer;
 }
 
-#menu-open a {
+.menu-link {
     display: flex;
     width: 100%;
     align-items: center;
@@ -408,13 +408,15 @@ footer {
     color: #444444;
     text-decoration: none;
     padding: 20px;
-    font-size: 16px;
+    font-size: 24px;
+    text-decoration: none;
 }
 
-#menu-open a:hover {
+.menu-link:hover {
     cursor: pointer;
     background-color: white;
     color: #444444;
+    text-decoration: none;
 }
 
 @media (max-width: 1000px) {
