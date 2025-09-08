@@ -16,322 +16,348 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-elements">
-            <a><img width="50px" height="30px" src="/img/spanish.png"/></a>
-            <a href="/en/index.html"><img width="50px" height="30px" style="opacity: 50%;" src="/img/english.png"/></a>
-        </div>
-        <div class="nav-elements">
-            <a class="link" href="#about-me">Sobre mí</a>
-            <a class="link" href="#projects">Proyectos</a>
-            <a class="link" href="#experience">Experiencia</a>
-            <a class="link" href="#skills">Habilidades</a>
-            <a class="link" href="#education">Educación</a>
-            <a class="link" href="#contact">Contacto</a>
-        </div>
-    </nav>
-    <div id="content">
-        <div id="about-me">
-            <img src="/img/yo.png" id="yo-img" />
-            <h1 style="margin: 0;">Hola, soy Sergio Núñez Bonet</h1>
-            <h2 style="margin: 0;">Desarrollador Full-Stack</h2>
-            <p style="margin: 0;">Apasionado por el desarrollo web, tras varios años de experiencia como administrador
-                de sistemas y redes, decidí especializarme en este ámbito para explorar nuevas oportunidades y potenciar
-                mi carrera.</p>
-            <div class="buttons">
-                <a class="contact-btn" href='https://www.linkedin.com/in/sergionbonet/'><img
-                        src="/img/linkedin.png" />LinkedIn</a>
-                <a class="contact-btn" href='https://github.com/sergioesenebe'><img src="/img/github.png" />GitHub</a>
-                <a class="contact-btn" href='mailto:sergionbonet@gmail.com'><img
-                        src="/img/mail.png" />sergionbonet@gmail.com</a>
-                <button class="contact-btn"><img src="/img/phone.png"
-                        onclick="window.location.href='tel:+34654361317'" />+34
-                    654 361 317</button>
-                <a class="contact-btn" href="documents/Sergio Núñez Bonet CV.pdf" download><img
-                        src="/img/document.png" />Descargar CV</a>
+    <div id="page">
+        <nav>
+            <div class="nav-elements">
+                <a><img width="50px" height="30px" src="/img/spanish.png" /></a>
+                <a href="/en/index.html"><img width="50px" height="30px" style="opacity: 50%;"
+                        src="/img/english.png" /></a>
+            </div>
+            <div class="nav-elements" id="nav-links">
+                <a class="link" href="#about-me">Sobre mí</a>
+                <a class="link" href="#projects">Proyectos</a>
+                <a class="link" href="#experience">Experiencia</a>
+                <a class="link" href="#skills">Habilidades</a>
+                <a class="link" href="#education">Educación</a>
+                <a class="link" href="#contact">Contacto</a>
+            </div>
+            <div class="nav-elements" id="menu">
+                <img width="50px" src="/img/menu.png" />
             </div>
 
-        </div>
-        <div id="projects">
-            <h1>Proyectos</h1>
-            <div class="projects-group">
-                <div class="project">
-                    <div style="display: flex; flex-direction: column;">
-                        <div class="carrousel">
-                            <div class="slides" id="myTrip-slides">
-                                <img src="/img/mytrip-home.png" class="active" />
-                                <img src="/img/mytrip-trips.png" />
-                                <img src="/img/mytrip-trip.png" />
-                                <img src="/img/mytrip-traveler.png" />
-                                <img src="/img/mytrip-new-trip.png" />
+        </nav>
+        <div id="content">
+            <div id="about-me">
+                <img src="/img/yo.png" id="yo-img" />
+                <h1 style="margin: 0;">Hola, soy Sergio Núñez Bonet</h1>
+                <h2 style="margin: 0;">Desarrollador Full-Stack</h2>
+                <p style="margin: 0;">Apasionado por el desarrollo web, tras varios años de experiencia como
+                    administrador
+                    de sistemas y redes, decidí especializarme en este ámbito para explorar nuevas oportunidades y
+                    potenciar
+                    mi carrera.</p>
+                <div class="buttons">
+                    <a class="contact-btn" href='https://www.linkedin.com/in/sergionbonet/'><img
+                            src="/img/linkedin.png" />LinkedIn</a>
+                    <a class="contact-btn" href='https://github.com/sergioesenebe'><img
+                            src="/img/github.png" />GitHub</a>
+                    <a class="contact-btn" href='mailto:sergionbonet@gmail.com'><img
+                            src="/img/mail.png" />sergionbonet@gmail.com</a>
+                    <button class="contact-btn"><img src="/img/phone.png"
+                            onclick="window.location.href='tel:+34654361317'" />+34
+                        654 361 317</button>
+                    <a class="contact-btn" href="documents/Sergio Núñez Bonet CV.pdf" download><img
+                            src="/img/document.png" />Descargar CV</a>
+                </div>
+
+            </div>
+            <div id="projects">
+                <h1>Proyectos</h1>
+                <div class="projects-group">
+                    <div class="project">
+                        <div style="display: flex; flex-direction: column;">
+                            <div class="carrousel">
+                                <div class="slides" id="myTrip-slides">
+                                    <img src="/img/mytrip-home.png" class="active" />
+                                    <img src="/img/mytrip-trips.png" />
+                                    <img src="/img/mytrip-trip.png" />
+                                    <img src="/img/mytrip-traveler.png" />
+                                    <img src="/img/mytrip-new-trip.png" />
+                                </div>
+                            </div>
+                            <div class="points">
+                                <div class="point myTrip-point active" onclick="changeMyTripSlide(0)"></div>
+                                <div class="point myTrip-point" onclick="changeMyTripSlide(1)"></div>
+                                <div class="point myTrip-point" onclick="changeMyTripSlide(2)"></div>
+                                <div class="point myTrip-point" onclick="changeMyTripSlide(3)"></div>
+                                <div class="point myTrip-point" onclick="changeMyTripSlide(4)"></div>
                             </div>
                         </div>
-                        <div class="points">
-                            <div class="point myTrip-point active" onclick="changeMyTripSlide(0)"></div>
-                            <div class="point myTrip-point" onclick="changeMyTripSlide(1)"></div>
-                            <div class="point myTrip-point" onclick="changeMyTripSlide(2)"></div>
-                            <div class="point myTrip-point" onclick="changeMyTripSlide(3)"></div>
-                            <div class="point myTrip-point" onclick="changeMyTripSlide(4)"></div>
-                        </div>
-                    </div>
-                    <div style="display: flex; flex-direction: column; gap: 20px;">
-                        <h2>myTrip</h2>
-                        <div class="project-technologies">
-                            <div class="project-technology"><img src="/img/react.png" />React</div>
-                            <div class="project-technology"><img src="/img/nodejs.png" />Node.js</div>
-                            <div class="project-technology"><img src="/img/mongo.png" />MongoDB</div>
-                            <div class="project-technology"><img src="/img/tailwind.png" />Tailwind CSS</div>
-                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <h2>myTrip</h2>
+                            <div class="project-technologies">
+                                <div class="project-technology"><img src="/img/react.png" />React</div>
+                                <div class="project-technology"><img src="/img/nodejs.png" />Node.js</div>
+                                <div class="project-technology"><img src="/img/mongo.png" />MongoDB</div>
+                                <div class="project-technology"><img src="/img/tailwind.png" />Tailwind CSS</div>
+                            </div>
 
-                        <p>Red social para descubrir nuevos viajes y viajeros, compartir destinos y explorar los mejores
-                            lugares para visitar.</p>
-                        <div class="buttons" style="justify-content: center;">
-                            <a class="contact-btn web-btn" href='https://github.com/sergioesenebe/myTrip'><img
-                                    src="/img/github.png" />GitHub</a>
-                            <a class="contact-btn web-btn" href='https://mytrip.esenebe.com/'><img
-                                    src="/img/web.png" />Web</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="project">
-                    <div style="display: flex; flex-direction: column;">
-                        <div class="carrousel">
-                            <div class="slides" id="board-slides">
-                                <img src="/img/board-home.png" class="active" />
-                                <img src="/img/board-board.png" />
-                                <img src="/img/board-note.png" />
-                                <img src="/img/board-calendar.png" />
+                            <p>Red social para descubrir nuevos viajes y viajeros, compartir destinos y explorar los
+                                mejores
+                                lugares para visitar.</p>
+                            <div class="buttons" style="justify-content: center;">
+                                <a class="contact-btn web-btn" href='https://github.com/sergioesenebe/myTrip'><img
+                                        src="/img/github.png" />GitHub</a>
+                                <a class="contact-btn web-btn" href='https://mytrip.esenebe.com/'><img
+                                        src="/img/web.png" />Web</a>
                             </div>
                         </div>
-                        <div class="points">
-                            <div class="point board-point active" onclick="changeBoardSlide(0)"></div>
-                            <div class="point board-point" onclick="changeBoardSlide(1)"></div>
-                            <div class="point board-point" onclick="changeBoardSlide(2)"></div>
-                            <div class="point board-point" onclick="changeBoardSlide(3)"></div>
-                        </div>
+
                     </div>
-                    <div style="display: flex; flex-direction: column; gap: 20px;">
-                        <h2>board</h2>
-                        <div class="project-technologies">
-                            <div class="project-technology"><img src="/img/javascript.png" />JavaScript</div>
-                            <div class="project-technology"><img src="/img/nodejs.png" />Node.js</div>
-                            <div class="project-technology"><img src="/img/mysql.png" />MySQL</div>
-                            <div class="project-technology"><img src="/img/html.png" />HTML</div>
-                            <div class="project-technology"><img src="/img/css.png" />CSS</div>
+                    <div class="project">
+                        <div style="display: flex; flex-direction: column;">
+                            <div class="carrousel">
+                                <div class="slides" id="board-slides">
+                                    <img src="/img/board-home.png" class="active" />
+                                    <img src="/img/board-board.png" />
+                                    <img src="/img/board-note.png" />
+                                    <img src="/img/board-calendar.png" />
+                                </div>
+                            </div>
+                            <div class="points">
+                                <div class="point board-point active" onclick="changeBoardSlide(0)"></div>
+                                <div class="point board-point" onclick="changeBoardSlide(1)"></div>
+                                <div class="point board-point" onclick="changeBoardSlide(2)"></div>
+                                <div class="point board-point" onclick="changeBoardSlide(3)"></div>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <h2>board</h2>
+                            <div class="project-technologies">
+                                <div class="project-technology"><img src="/img/javascript.png" />JavaScript</div>
+                                <div class="project-technology"><img src="/img/nodejs.png" />Node.js</div>
+                                <div class="project-technology"><img src="/img/mysql.png" />MySQL</div>
+                                <div class="project-technology"><img src="/img/html.png" />HTML</div>
+                                <div class="project-technology"><img src="/img/css.png" />CSS</div>
+                            </div>
+
+                            <p>Aplicación web para organizar tareas mediante tableros (tipo Trello), notas y un
+                                calendario
+                                de
+                                eventos.</p>
+                            <div class="buttons" style="justify-content: center;">
+                                <a class="contact-btn web-btn" href='https://github.com/sergioesenebe/board/'><img
+                                        src="/img/github.png" />GitHub</a>
+                                <a class="contact-btn web-btn" href='https://board.esenebe.com/'><img
+                                        src="/img/web.png" />Web</a>
+                            </div>
                         </div>
 
-                        <p>Aplicación web para organizar tareas mediante tableros (tipo Trello), notas y un calendario
-                            de
-                            eventos.</p>
-                        <div class="buttons" style="justify-content: center;">
-                            <a class="contact-btn web-btn" href='https://github.com/sergioesenebe/board/'><img
-                                    src="/img/github.png" />GitHub</a>
-                            <a class="contact-btn web-btn" href='https://board.esenebe.com/'><img
-                                    src="/img/web.png" />Web</a>
+                    </div>
+                </div>
+            </div>
+            <div id="experience">
+                <h1>Experiencia</h1>
+                <div id="jobs">
+                    <div class="job">
+                        <div class="img-and-line">
+                            <div class="description-img-div"><img class="description-img" src="/img/pc.png" /></div>
+                            <div style="width: 2px; height: 100%; background-color: #444444;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <h2>Consultor IT</h2>
+                            <h3>Saymar S.L.</h3>
+                            <p>Abril 2023 - Marzo 2025 | Valencia, España</p>
+                            <ul>
+                                <li>Gestión de MDMs.</li>
+                                <li>Coordinación de nuevos proyectos.</li>
+                                <li>Análisis de nuevas herramientas.</li>
+                                <li>Soporte técnico.</li>
+                            </ul>
                         </div>
                     </div>
+                    <div class="job">
+                        <div class="img-and-line">
+                            <div class="description-img-div">
+                                <img class="description-img" src="/img/sap.png" />
+                            </div>
+                            <div style="width: 2px; height: 100%; background-color: #444444;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
 
+                            <h2>Consultor SAP Basis (Prácticas)</h2>
+                            <h3>Capgemini</h3>
+                            <p>Marzo 2019 - Junio 2019 | Valencia, España</p>
+                            <ul>
+                                <li>Administración básica de servidores y sistemas SAP.</li>
+                                <li>Gestión de bases de datos SAP HANA.</li>
+                                <li>Seguridad en entornos SAP.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="skills">
+                <h1>Habilidades</h1>
+                <div id="technologies-groups">
+                    <div id="technologies-group">
+                        <h2>Lenguajes</h2>
+                        <div class="technologies">
+                            <div class="technology">
+                                <img src="/img/javascript.png" />
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/html.png" />
+                                <span>HTML</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/css.png" />
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="technologies-group">
+                        <h2>Frameworks y Librerías</h2>
+                        <div class="technologies">
+                            <div class="technology">
+                                <img src="/img/react.png" />
+                                <span>React</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/nodejs.png" />
+                                <span>Node.js</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/express.png" />
+                                <span>Express.js</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/tailwind.png" />
+                                <span>Tailwind CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="technologies-group">
+                        <h2>Tecnologías y Herramientas</h2>
+                        <div class="technologies">
+                            <div class="technology">
+                                <img src="/img/git.png" />
+                                <span>git</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/docker.png" />
+                                <span>Docker</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/kubernetes.png" />
+                                <span>Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="technologies-group">
+                        <h2>Bases de Datos</h2>
+                        <div class="technologies">
+                            <div class="technology">
+                                <img src="/img/mysql.png" />
+                                <span>MySQL</span>
+                            </div>
+                            <div class="technology">
+                                <img src="/img/mongo.png" />
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="education">
+                <h1>Educación y Certificados</h1>
+                <div id="jobs">
+                    <div class="job">
+                        <div class="img-and-line">
+                            <div class="description-img-div"><img class="description-img" src="/img/university.png" />
+                            </div>
+                            <div style="width: 2px; height: 100%; background-color: #444444;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <h2>Ingeniería Informática</h2>
+                            <h3>Universidad Politécnica de Valencia</h3>
+                            <p>2019 - 2023</p>
+                            <p>Erasmus en Wrocław University of Science and Technology</p>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="img-and-line">
+                            <div class="description-img-div"><img class="description-img" src="/img/code.png" /></div>
+                            <div style="width: 2px; height: 100%; background-color: #444444;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <h2>Full-Stack JavaScript Developer</h2>
+                            <h3>IBM</h3>
+                            <p>2025</p>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="img-and-line">
+                            <div class="description-img-div"><img class="description-img" src="/img/microsoft.png" />
+                            </div>
+                            <div style="width: 2px; height: 100%; background-color: #444444;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <h2>Endpoint Administrator Associate</h2>
+                            <h3>Microsoft 365 Certified</h3>
+                            <p>2024</p>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="img-and-line">
+                            <div class="description-img-div"><img class="description-img" src="/img/network.png" />
+                            </div>
+                            <div style="width: 2px; height: 100%; background-color: #444444;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <h2>Modulo Superior Administración de Sistemas Informáticos en Red</h2>
+                            <h3>IES Font de Sant Luís</h3>
+                            <p>2017 - 2019</p>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="img-and-line">
+                            <div class="description-img-div"><img class="description-img" src="/img/language.png" />
+                            </div>
+                            <div style="width: 2px; height: 100%; background-color: #444444;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <h2>LinguaSkill B2</h2>
+                            <h3>Cambridge</h3>
+                            <p>2022</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <h1>Contacto</h1>
+                <div class="buttons" style="justify-content: center;">
+                    <a class="contact-btn" href='mailto:sergionbonet@gmail.com'><img
+                            src="/img/mail.png" />sergionbonet@gmail.com</a>
+                    <a class="contact-btn"><img src="/img/phone.png" href='tel:+34654361317' />+34
+                        654 361 317</a>
+                    <a href="documents/Sergio Núñez Bonet CV.pdf" download class="contact-btn"><img
+                            src="/img/document.png" />Descargar CV</a>
                 </div>
             </div>
         </div>
-        <div id="experience">
-            <h1>Experiencia</h1>
-            <div id="jobs">
-                <div class="job">
-                    <div class="img-and-line">
-                        <div class="description-img-div"><img class="description-img" src="/img/pc.png" /></div>
-                        <div style="width: 2px; height: 100%; background-color: #444444;"></div>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <h2>Consultor IT</h2>
-                        <h3>Saymar S.L.</h3>
-                        <p>Abril 2023 - Marzo 2025 | Valencia, España</p>
-                        <ul>
-                            <li>Gestión de MDMs.</li>
-                            <li>Coordinación de nuevos proyectos.</li>
-                            <li>Análisis de nuevas herramientas.</li>
-                            <li>Soporte técnico.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="job">
-                    <div class="img-and-line">
-                        <div class="description-img-div">
-                            <img class="description-img" src="/img/sap.png" />
-                        </div>
-                        <div style="width: 2px; height: 100%; background-color: #444444;"></div>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-
-                        <h2>Consultor SAP Basis (Prácticas)</h2>
-                        <h3>Capgemini</h3>
-                        <p>Marzo 2019 - Junio 2019 | Valencia, España</p>
-                        <ul>
-                            <li>Administración básica de servidores y sistemas SAP.</li>
-                            <li>Gestión de bases de datos SAP HANA.</li>
-                            <li>Seguridad en entornos SAP.</li>
-                        </ul>
-                    </div>
-                </div>
+        <footer>
+            <div class="footer-contact">
+                <a class="link" href="#projects">Proyectos</a>
+                <a class="link" href="https://github.com/sergioesenebe">GitHub</a>
+                <a class="link" href="https://www.linkedin.com/in/sergionbonet">LinkedIn</a>
+                <a class="link" href="mailto:sergionbonet@gmail.com">sergionbonet@gmail.com</a>
             </div>
-        </div>
-        <div id="skills">
-            <h1>Habilidades</h1>
-            <div id="technologies-groups">
-                <div id="technologies-group">
-                    <h2>Lenguajes</h2>
-                    <div class="technologies">
-                        <div class="technology">
-                            <img src="/img/javascript.png" />
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/html.png" />
-                            <span>HTML</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/css.png" />
-                            <span>CSS</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="technologies-group">
-                    <h2>Frameworks y Librerías</h2>
-                    <div class="technologies">
-                        <div class="technology">
-                            <img src="/img/react.png" />
-                            <span>React</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/nodejs.png" />
-                            <span>Node.js</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/express.png" />
-                            <span>Express.js</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/tailwind.png" />
-                            <span>Tailwind CSS</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="technologies-group">
-                    <h2>Tecnologías y Herramientas</h2>
-                    <div class="technologies">
-                        <div class="technology">
-                            <img src="/img/git.png" />
-                            <span>git</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/docker.png" />
-                            <span>Docker</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/kubernetes.png" />
-                            <span>Kubernetes</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="technologies-group">
-                    <h2>Bases de Datos</h2>
-                    <div class="technologies">
-                        <div class="technology">
-                            <img src="/img/mysql.png" />
-                            <span>MySQL</span>
-                        </div>
-                        <div class="technology">
-                            <img src="/img/mongo.png" />
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="education">
-            <h1>Educación y Certificados</h1>
-            <div id="jobs">
-                <div class="job">
-                    <div class="img-and-line">
-                        <div class="description-img-div"><img class="description-img" src="/img/university.png" /></div>
-                        <div style="width: 2px; height: 100%; background-color: #444444;"></div>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <h2>Ingeniería Informática</h2>
-                        <h3>Universidad Politécnica de Valencia</h3>
-                        <p>2019 - 2023</p>
-                        <p>Erasmus en Wrocław University of Science and Technology</p>
-                    </div>
-                </div>
-                <div class="job">
-                    <div class="img-and-line">
-                        <div class="description-img-div"><img class="description-img" src="/img/code.png" /></div>
-                        <div style="width: 2px; height: 100%; background-color: #444444;"></div>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <h2>Full-Stack JavaScript Developer</h2>
-                        <h3>IBM</h3>
-                        <p>2025</p>
-                    </div>
-                </div>
-                <div class="job">
-                    <div class="img-and-line">
-                        <div class="description-img-div"><img class="description-img" src="/img/microsoft.png" /></div>
-                        <div style="width: 2px; height: 100%; background-color: #444444;"></div>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <h2>Endpoint Administrator Associate</h2>
-                        <h3>Microsoft 365 Certified</h3>
-                        <p>2024</p>
-                    </div>
-                </div>
-                <div class="job">
-                    <div class="img-and-line">
-                        <div class="description-img-div"><img class="description-img" src="/img/network.png" /></div>
-                        <div style="width: 2px; height: 100%; background-color: #444444;"></div>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <h2>Modulo Superior Administración de Sistemas Informáticos en Red</h2>
-                        <h3>IES Font de Sant Luís</h3>
-                        <p>2017 - 2019</p>
-                    </div>
-                </div>
-                <div class="job">
-                    <div class="img-and-line">
-                        <div class="description-img-div"><img class="description-img" src="/img/language.png" /></div>
-                        <div style="width: 2px; height: 100%; background-color: #444444;"></div>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <h2>LinguaSkill B2</h2>
-                        <h3>Cambridge</h3>
-                        <p>2022</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div id="contact">
-            <h1>Contacto</h1>
-            <div class="buttons" style="justify-content: center;">
-                <a class="contact-btn" href='mailto:sergionbonet@gmail.com'><img
-                        src="/img/mail.png" />sergionbonet@gmail.com</a>
-                <a class="contact-btn"><img src="/img/phone.png" href='tel:+34654361317' />+34
-                    654 361 317</a>
-                <a href="documents/Sergio Núñez Bonet CV.pdf" download class="contact-btn"><img
-                        src="/img/document.png" />Descargar CV</a>
-            </div>
+        </footer>
+    </div>
+    <div id="menu-open">
+        <div id="menu-close-div"><img src="/img/close.png" id="menu-close" /></div>
+        <div id="menu-links">
+            <a class="menu-link" href="#about-me">Sobre mí</a>
+            <a class="menu-link" href="#projects">Proyectos</a>
+            <a class="menu-link" href="#experience">Experiencia</a>
+            <a class="menu-link" href="#skills">Habilidades</a>
+            <a class="menu-link" href="#education">Educación</a>
+            <a class="menu-link" href="#contact">Contacto</a>
         </div>
     </div>
-    <footer>
-        <div class="footer-contact">
-            <a class="link" href="#projects">Proyectos</a>
-            <a class="link" href="https://github.com/sergioesenebe">GitHub</a>
-            <a class="link" href="https://www.linkedin.com/in/sergionbonet">LinkedIn</a>
-            <a class="link" href="mailto:sergionbonet@gmail.com">sergionbonet@gmail.com</a>
-        </div>
-    </footer>
-
     <script type="module" src="/js/portfolio.js" defer></script>
 </body>
 

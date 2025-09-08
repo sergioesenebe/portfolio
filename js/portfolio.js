@@ -43,3 +43,24 @@ window.changeBoardSlide = function (index) {
     clearInterval(interval);
     interval = setInterval(nextSlide, 3000);
 }
+
+const menu = document.getElementById('menu');
+menu.addEventListener('click', () => {
+    document.getElementById('page').style.display = 'none';
+    document.getElementById('menu-open').style.display = 'block';
+})
+
+const menuClose = document.getElementById('menu-close');
+menuClose.addEventListener('click', () => {
+    document.getElementById('page').style.display = 'block';
+    document.getElementById('menu-open').style.display = 'none';
+})
+
+
+const menuLinks = document.querySelectorAll('.menu-link')
+menuLinks.forEach(link => {
+link.addEventListener('click', () => {
+    document.getElementById('page').style.display = 'block';
+    document.getElementById('menu-open').style.display = 'none';
+})
+})
