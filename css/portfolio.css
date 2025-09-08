@@ -16,10 +16,22 @@ body {
 
 nav {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    align-items: center;
+}
+
+.nav-elements img {
+    opacity: 80%;
 }
 
 .link {
@@ -347,6 +359,64 @@ footer {
     text-decoration: underline;
 }
 
+#menu {
+    display: none;
+}
+
+#menu:hover {
+    cursor: pointer;
+}
+
+#page {
+    display: none;
+}
+
+#menu-open {
+    background-color: #9ed3c0;
+}
+
+#menu-close-div {
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+}
+
+#menu-links {
+    height: calc(100dvh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#menu-close {
+    width: 50px;
+}
+
+#menu-close:hover {
+    cursor: pointer;
+}
+
+#menu-open a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#menu-open a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #444444;
+}
+
 @media (max-width: 1000px) {
     #about-me {
         width: 100%;
@@ -364,7 +434,6 @@ footer {
 
     .project {
         flex-direction: column-reverse;
-        border-top: 1px solid #b8e0d2;
     }
 
     #experience {
@@ -386,4 +455,13 @@ footer {
     #contact {
         width: 100%;
     }
+
+    #nav-links {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
 }
