@@ -367,11 +367,8 @@ footer {
     cursor: pointer;
 }
 
-#page {
-    display: none;
-}
-
 #menu-open {
+    display: none
     background-color: #9ed3c0;
 }
 
