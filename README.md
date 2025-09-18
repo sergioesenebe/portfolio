@@ -1,4 +1,4 @@
-# Sergio Núñez Bonet - Full-Stack Developer
+# Sergio Núñez Bonet | Full-Stack Developer
 
 ## About Me
 
