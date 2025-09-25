@@ -1,8 +1,8 @@
-# Sergio Núñez Bonet | Full-Stack Developer
+# Sergio Núñez Bonet | Graduate in Computer Engineering
 
 ## About Me
 
-Passionate about web development. After some years of experience as a systems and network administrator, I have specialized in this field to take advantage of new opportunities and continue growing professionally.
+Passionate about new technologies, with experience in systems and network administration. I have specialized in full-stack development to take advantage of new opportunities and continue advancing in my professional career.
 
 ## Experience
 
