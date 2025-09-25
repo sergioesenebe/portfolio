@@ -1,8 +1,8 @@
-# Sergio Núñez Bonet | Desarrollador Full-Stack
+# Sergio Núñez Bonet | Graduado en Ingeniería Informática
 
 ## Sobre mí
 
-Apasionado por el desarrollo web. Tras varios años de experiencia como administrador de sistemas y redes, me he especializado en este ámbito para aprovechar nuevas oportunidades y seguir impulsando mi carrera.
+Apasionado por las nuevas tecnologías, con experiencia en administración de sistemas y redes. Me he especializado en desarrollo full-stack para aprovechar nuevas oportunidades y seguir avanzando en mi carrera profesional.
 
 ## Experiencia
 
