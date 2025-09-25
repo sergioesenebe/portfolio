@@ -1,4 +1,4 @@
-# Sergio Núñez Bonet | Graduate in Computer Engineering
+# Sergio Núñez Bonet | Bachelor’s Degree in Computer Engineering
 
 ## About Me
 
