@@ -2,7 +2,7 @@
 
 ## Sobre mí
 
-Apasionado por las nuevas tecnologías, con experiencia en administración de sistemas y redes. Me he especializado en desarrollo full-stack para aprovechar nuevas oportunidades y seguir avanzando en mi carrera profesional.
+Me gusta involucrarme en proyectos motivadores donde pueda aprender y mejorar. Tengo experiencia en administración de sistemas y redes, y me he especializado en desarrollo full-stack para buscar nuevas oportunidades y seguir creciendo profesionalmente.
 
 ## Experiencia
 
