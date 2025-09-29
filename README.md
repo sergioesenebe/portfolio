@@ -2,7 +2,7 @@
 
 ## About Me
 
-Passionate about new technologies, with experience in systems and network administration. I have specialized in full-stack development to take advantage of new opportunities and continue advancing in my professional career.
+I like to get involved in motivating projects where I can learn and improve. I have experience in systems and network administration, and I have specialized in full-stack development to look for new opportunities and continue growing professionally.
 
 ## Experience
 
