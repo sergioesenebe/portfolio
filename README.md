@@ -10,7 +10,7 @@ I am passionate about developing solutions and learning new technologies through
   - Integration of SaaS EDI and billing solutions.
   - Automation of ERP format conversions.
   - JavaScript development and feature support.
-  - Configuration of communications and technical testing (API, AS2, Web Service, etc.).
+  - Configuration of communications (API, AS2, Web Service, etc.).
 
 - **IT Consultant at Saymar S.L. (April 2023 - March 2025):**  
   - MDM Management.
