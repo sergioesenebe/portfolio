@@ -10,7 +10,7 @@ Me apasiona desarrollar soluciones y aprender tecnologías nuevas a través de p
   - Integración de soluciones SaaS EDI y facturación.
   - Automatización de conversiones de formatos ERP.
   - Desarrollo en JavaScript y soporte a funcionalidades.
-  - Configuración de comunicaciones y pruebas técnicas. (API, AS2, Web Service, etc.)
+  - Configuración de comunicaciones (API, AS2, Web Service, etc.).
 
 - **Consultor IT en Saymar S.L. (Abril 2023 - Marzo 2025):**  
   - Gestión de MDMs.
