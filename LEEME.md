@@ -1,10 +1,16 @@
-# Sergio Núñez Bonet | Graduado en Ingeniería Informática
+# Sergio Núñez Bonet | Desarrollador Full-Stack
 
 ## Sobre mí
 
-Me gusta involucrarme en proyectos motivadores donde pueda aprender y mejorar. Tengo experiencia en administración de sistemas y redes, y me he especializado en desarrollo full-stack para buscar nuevas oportunidades y seguir creciendo profesionalmente.
+Me apasiona desarrollar soluciones y aprender tecnologías nuevas a través de proyectos prácticos. He trabajado en entornos IT y he reforzado mi perfil con proyectos personales full-stack, buscando seguir creciendo profesionalmente como desarrollador.
 
 ## Experiencia
+
+- **Integrador de Software at Edicom Group (Octubre 2025 - Actualidad):**  
+  - Integración de soluciones SaaS EDI y facturación.
+  - Automatización de conversiones de formatos ERP.
+  - Desarrollo en JavaScript y soporte a funcionalidades.
+  - Configuración de comunicaciones y pruebas técnicas. (API, AS2, Web Service, etc.)
 
 - **Consultor IT en Saymar S.L. (Abril 2023 - Marzo 2025):**  
   - Gestión de MDMs.
