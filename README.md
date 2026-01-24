@@ -2,7 +2,7 @@
 
 ## About Me
 
-I am passionate about developing solutions and learning new technologies through hands-on projects. I have worked in IT environments and have strengthened my profile with personal full-stack projects, aiming to continue growing professionally as a developer.
+I enjoy creating solutions and learning new technologies through practical projects. I have experience in IT environments and have improved my skills with personal full-stack projects, looking to grow professionally as a developer.
 
 ## Experience
 
