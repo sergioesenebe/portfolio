@@ -1,10 +1,16 @@
-# Sergio Núñez Bonet | Bachelor’s Degree in Computer Engineering
+# Sergio Núñez Bonet | Full-Stack Developer
 
 ## About Me
 
-I like to get involved in motivating projects where I can learn and improve. I have experience in systems and network administration, and I have specialized in full-stack development to look for new opportunities and continue growing professionally.
+I am passionate about developing solutions and learning new technologies through hands-on projects. I have worked in IT environments and have strengthened my profile with personal full-stack projects, aiming to continue growing professionally as a developer.
 
 ## Experience
+
+- **Software Integrator at Edicom Group (October 2025 - Present):**  
+  - Integration of SaaS EDI and billing solutions.
+  - Automation of ERP format conversions.
+  - JavaScript development and feature support.
+  - Configuration of communications and technical testing (API, AS2, Web Service, etc.).
 
 - **IT Consultant at Saymar S.L. (April 2023 - March 2025):**  
   - MDM Management.
