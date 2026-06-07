@@ -1,8 +1,8 @@
-# Sergio Núñez Bonet | Full-Stack Developer
+# Sergio Núñez Bonet | Computer Engineer
 
 ## About Me
 
-I enjoy creating solutions and learning new technologies through practical projects. I have experience in IT environments and have improved my skills with personal full-stack projects, looking to grow professionally as a developer.
+I am passionate about computer science and enjoy developing new solutions and improving work environments so that people can be as efficient as possible. I am motivated by learning and applying technology to make systems more practical, agile, and robust.
 
 ## Experience
 
