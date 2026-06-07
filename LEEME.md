@@ -1,8 +1,8 @@
-# Sergio Núñez Bonet | Desarrollador Full-Stack
+# Sergio Núñez Bonet | Ingeniero Informático
 
 ## Sobre mí
 
-Me apasiona desarrollar soluciones y aprender tecnologías nuevas a través de proyectos prácticos. He trabajado en entornos IT y he reforzado mi perfil con proyectos personales full-stack, buscando seguir creciendo profesionalmente como desarrollador.
+Soy un apasionado de la informática que disfruta desarrollando nuevas soluciones y mejorando entornos de trabajo para que las personas puedan ser lo más eficientes posible. Me motiva aprender y aplicar tecnología para hacer los sistemas más prácticos, ágiles y robustos.
 
 ## Experiencia
 
